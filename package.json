@@ -1,0 +1,17 @@
+{
+  "name": "api-node",
+  "version": "1.0.0",
+  "main": "index.js",
+  "description": "aprendizado api rest com node",
+  "scripts": {
+    "start": "nodemon config/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "config": "^3.2.3",
+    "express": "^4.17.1"
+  }
+}
